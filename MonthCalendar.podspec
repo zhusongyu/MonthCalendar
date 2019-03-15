@@ -14,5 +14,5 @@ s.source_files = 'MonthCalendar/Calendar/view/*'
 #s.public_header_files = 'PresentViewController.swift'
 
 s.ios.deployment_target = '9.0'
-s.swift_version= '4.2'
+s.swift_version= '4.0'
 end
