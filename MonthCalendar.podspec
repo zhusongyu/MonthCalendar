@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'MonthCalendar'
-s.version     = '1.0.2'
+s.version     = '1.0.3'
 s.authors     = { 'Pig' => 'zhusongyu1990@163.com' }
 s.homepage    = 'https://github.com/zhusongyu/MonthCalendar'
 s.summary     = 'a month calendar'
