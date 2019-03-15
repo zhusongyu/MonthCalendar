@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionCellView">
+            <connections>
+                <outlet property="subtitleLabel" destination="nCr-DU-8tS" id="0sd-Rh-I1g"/>
+                <outlet property="titleLabel" destination="iZI-iI-YMa" id="mdd-y7-tfl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="btM-Yo-6kI">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZI-iI-YMa">
+                    <rect key="frame" x="68" y="10" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCr-DU-8tS">
+                    <rect key="frame" x="68" y="35.5" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="iZI-iI-YMa" firstAttribute="top" secondItem="Lhl-p8-24W" secondAttribute="top" constant="10" id="Jzf-ov-599"/>
+                <constraint firstItem="iZI-iI-YMa" firstAttribute="centerX" secondItem="btM-Yo-6kI" secondAttribute="centerX" id="Pqg-D7-Nta"/>
+                <constraint firstItem="nCr-DU-8tS" firstAttribute="centerX" secondItem="btM-Yo-6kI" secondAttribute="centerX" id="V5O-ef-KeG"/>
+                <constraint firstItem="nCr-DU-8tS" firstAttribute="top" secondItem="iZI-iI-YMa" secondAttribute="bottom" constant="5" id="bhl-Vk-keA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Lhl-p8-24W"/>
+            <point key="canvasLocation" x="-550.39999999999998" y="-275.71214392803603"/>
+        </view>
+    </objects>
+</document>
