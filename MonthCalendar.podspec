@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'MonthCalendar'
-s.version     = '1.0.3'
+s.version     = '1.0.4'
 s.authors     = { 'Pig' => 'zhusongyu1990@163.com' }
 s.homepage    = 'https://github.com/zhusongyu/MonthCalendar'
 s.summary     = 'a month calendar'
@@ -17,5 +17,6 @@ s.ios.deployment_target = '9.0'
 s.swift_version= '4.0'
 s.resource_bundles = {
   'MonthCalendar' => ['Resources/*.png'],
+  'Xibs' => ['Xibs/*.xib']
 }
 end

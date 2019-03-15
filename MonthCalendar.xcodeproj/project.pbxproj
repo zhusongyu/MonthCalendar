@@ -16,16 +16,10 @@
 		3B931FAD223B7B1E006AAB12 /* CollectionCellViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931F9B223B7B1D006AAB12 /* CollectionCellViewAdapter.swift */; };
 		3B931FAE223B7B1E006AAB12 /* LaiCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931F9C223B7B1D006AAB12 /* LaiCalendarView.swift */; };
 		3B931FAF223B7B1E006AAB12 /* PresentCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931F9D223B7B1D006AAB12 /* PresentCalendarView.swift */; };
-		3B931FB0223B7B1E006AAB12 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931F9E223B7B1D006AAB12 /* MenuCollectionViewCell.xib */; };
 		3B931FB1223B7B1E006AAB12 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931F9F223B7B1D006AAB12 /* PresentViewController.swift */; };
 		3B931FB2223B7B1E006AAB12 /* PresentCalendarViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FA0223B7B1E006AAB12 /* PresentCalendarViewAdapter.swift */; };
 		3B931FB3223B7B1E006AAB12 /* CollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FA1223B7B1E006AAB12 /* CollectionCellView.swift */; };
 		3B931FB4223B7B1E006AAB12 /* LaiCalendarViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FA2223B7B1E006AAB12 /* LaiCalendarViewAdapter.swift */; };
-		3B931FB5223B7B1E006AAB12 /* CollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FA3223B7B1E006AAB12 /* CollectionCellView.xib */; };
-		3B931FB6223B7B1E006AAB12 /* PresentCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FA4223B7B1E006AAB12 /* PresentCalendarView.xib */; };
-		3B931FB7223B7B1E006AAB12 /* MenuCollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FA5223B7B1E006AAB12 /* MenuCollectionCellView.xib */; };
-		3B931FB8223B7B1E006AAB12 /* LaiCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FA6223B7B1E006AAB12 /* LaiCalendarView.xib */; };
-		3B931FB9223B7B1E006AAB12 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FA7223B7B1E006AAB12 /* CollectionViewCell.xib */; };
 		3B931FBA223B7B1E006AAB12 /* MenuCollectionCellViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FA8223B7B1E006AAB12 /* MenuCollectionCellViewAdapter.swift */; };
 		3B931FBB223B7B1E006AAB12 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FA9223B7B1E006AAB12 /* CollectionViewCell.swift */; };
 		3B931FBC223B7B1E006AAB12 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B931FAA223B7B1E006AAB12 /* MenuCollectionViewCell.swift */; };
@@ -39,6 +33,12 @@
 		3B931FCD223B7B2A006AAB12 /* icon_arrow_right_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FC5223B7B2A006AAB12 /* icon_arrow_right_gray@2x.png */; };
 		3B931FCE223B7B2A006AAB12 /* icon_arrow_left_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FC6223B7B2A006AAB12 /* icon_arrow_left_gray@2x.png */; };
 		3B931FCF223B7B2A006AAB12 /* icon_arrow_left_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FC7223B7B2A006AAB12 /* icon_arrow_left_black@2x.png */; };
+		3B931FD7223B80A8006AAB12 /* MenuCollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD1223B80A7006AAB12 /* MenuCollectionCellView.xib */; };
+		3B931FD8223B80A8006AAB12 /* CollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD2223B80A7006AAB12 /* CollectionCellView.xib */; };
+		3B931FD9223B80A8006AAB12 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD3223B80A7006AAB12 /* MenuCollectionViewCell.xib */; };
+		3B931FDA223B80A8006AAB12 /* LaiCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD4223B80A7006AAB12 /* LaiCalendarView.xib */; };
+		3B931FDB223B80A8006AAB12 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD5223B80A7006AAB12 /* CollectionViewCell.xib */; };
+		3B931FDC223B80A8006AAB12 /* PresentCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B931FD6223B80A7006AAB12 /* PresentCalendarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,16 +74,10 @@
 		3B931F9B223B7B1D006AAB12 /* CollectionCellViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellViewAdapter.swift; sourceTree = "<group>"; };
 		3B931F9C223B7B1D006AAB12 /* LaiCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaiCalendarView.swift; sourceTree = "<group>"; };
 		3B931F9D223B7B1D006AAB12 /* PresentCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentCalendarView.swift; sourceTree = "<group>"; };
-		3B931F9E223B7B1D006AAB12 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
 		3B931F9F223B7B1D006AAB12 /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
 		3B931FA0223B7B1E006AAB12 /* PresentCalendarViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentCalendarViewAdapter.swift; sourceTree = "<group>"; };
 		3B931FA1223B7B1E006AAB12 /* CollectionCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellView.swift; sourceTree = "<group>"; };
 		3B931FA2223B7B1E006AAB12 /* LaiCalendarViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaiCalendarViewAdapter.swift; sourceTree = "<group>"; };
-		3B931FA3223B7B1E006AAB12 /* CollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCellView.xib; sourceTree = "<group>"; };
-		3B931FA4223B7B1E006AAB12 /* PresentCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentCalendarView.xib; sourceTree = "<group>"; };
-		3B931FA5223B7B1E006AAB12 /* MenuCollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionCellView.xib; sourceTree = "<group>"; };
-		3B931FA6223B7B1E006AAB12 /* LaiCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaiCalendarView.xib; sourceTree = "<group>"; };
-		3B931FA7223B7B1E006AAB12 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		3B931FA8223B7B1E006AAB12 /* MenuCollectionCellViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionCellViewAdapter.swift; sourceTree = "<group>"; };
 		3B931FA9223B7B1E006AAB12 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		3B931FAA223B7B1E006AAB12 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -97,6 +91,12 @@
 		3B931FC5223B7B2A006AAB12 /* icon_arrow_right_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_right_gray@2x.png"; sourceTree = "<group>"; };
 		3B931FC6223B7B2A006AAB12 /* icon_arrow_left_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_left_gray@2x.png"; sourceTree = "<group>"; };
 		3B931FC7223B7B2A006AAB12 /* icon_arrow_left_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_left_black@2x.png"; sourceTree = "<group>"; };
+		3B931FD1223B80A7006AAB12 /* MenuCollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionCellView.xib; sourceTree = "<group>"; };
+		3B931FD2223B80A7006AAB12 /* CollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCellView.xib; sourceTree = "<group>"; };
+		3B931FD3223B80A7006AAB12 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		3B931FD4223B80A7006AAB12 /* LaiCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaiCalendarView.xib; sourceTree = "<group>"; };
+		3B931FD5223B80A7006AAB12 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		3B931FD6223B80A7006AAB12 /* PresentCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentCalendarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +147,7 @@
 		3B2F5A0521F56E0900F78C52 /* MonthCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				3B931FD0223B80A7006AAB12 /* Xibs */,
 				3B931FBF223B7B2A006AAB12 /* Resources */,
 				3B2F5A3621F56E9C00F78C52 /* Calendar */,
 				3B2F5A0621F56E0900F78C52 /* AppDelegate.swift */,
@@ -180,20 +181,14 @@
 			isa = PBXGroup;
 			children = (
 				3B931FA1223B7B1E006AAB12 /* CollectionCellView.swift */,
-				3B931FA3223B7B1E006AAB12 /* CollectionCellView.xib */,
 				3B931F9B223B7B1D006AAB12 /* CollectionCellViewAdapter.swift */,
 				3B931FA9223B7B1E006AAB12 /* CollectionViewCell.swift */,
-				3B931FA7223B7B1E006AAB12 /* CollectionViewCell.xib */,
 				3B931F9C223B7B1D006AAB12 /* LaiCalendarView.swift */,
-				3B931FA6223B7B1E006AAB12 /* LaiCalendarView.xib */,
 				3B931FA2223B7B1E006AAB12 /* LaiCalendarViewAdapter.swift */,
 				3B931FAC223B7B1E006AAB12 /* MenuCollectionCellView.swift */,
-				3B931FA5223B7B1E006AAB12 /* MenuCollectionCellView.xib */,
 				3B931FA8223B7B1E006AAB12 /* MenuCollectionCellViewAdapter.swift */,
 				3B931FAA223B7B1E006AAB12 /* MenuCollectionViewCell.swift */,
-				3B931F9E223B7B1D006AAB12 /* MenuCollectionViewCell.xib */,
 				3B931F9D223B7B1D006AAB12 /* PresentCalendarView.swift */,
-				3B931FA4223B7B1E006AAB12 /* PresentCalendarView.xib */,
 				3B931FA0223B7B1E006AAB12 /* PresentCalendarViewAdapter.swift */,
 				3B931F9F223B7B1D006AAB12 /* PresentViewController.swift */,
 				3B931FAB223B7B1E006AAB12 /* ViewController.swift */,
@@ -214,6 +209,19 @@
 				3B931FC7223B7B2A006AAB12 /* icon_arrow_left_black@2x.png */,
 			);
 			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		3B931FD0223B80A7006AAB12 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				3B931FD1223B80A7006AAB12 /* MenuCollectionCellView.xib */,
+				3B931FD2223B80A7006AAB12 /* CollectionCellView.xib */,
+				3B931FD3223B80A7006AAB12 /* MenuCollectionViewCell.xib */,
+				3B931FD4223B80A7006AAB12 /* LaiCalendarView.xib */,
+				3B931FD5223B80A7006AAB12 /* CollectionViewCell.xib */,
+				3B931FD6223B80A7006AAB12 /* PresentCalendarView.xib */,
+			);
+			path = Xibs;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -322,20 +330,20 @@
 			files = (
 				3B931FC8223B7B2A006AAB12 /* icon_arrow_left@2x.png in Resources */,
 				3B931FC9223B7B2A006AAB12 /* icon_arrow_right_black@2x.png in Resources */,
+				3B931FDA223B80A8006AAB12 /* LaiCalendarView.xib in Resources */,
+				3B931FDC223B80A8006AAB12 /* PresentCalendarView.xib in Resources */,
 				3B2F5A1121F56E0A00F78C52 /* LaunchScreen.storyboard in Resources */,
+				3B931FD7223B80A8006AAB12 /* MenuCollectionCellView.xib in Resources */,
 				3B2F5A0E21F56E0A00F78C52 /* Assets.xcassets in Resources */,
 				3B931FCC223B7B2A006AAB12 /* icon_arrow_right@2x.png in Resources */,
-				3B931FB5223B7B1E006AAB12 /* CollectionCellView.xib in Resources */,
-				3B931FB7223B7B1E006AAB12 /* MenuCollectionCellView.xib in Resources */,
 				3B931FCE223B7B2A006AAB12 /* icon_arrow_left_gray@2x.png in Resources */,
+				3B931FD9223B80A8006AAB12 /* MenuCollectionViewCell.xib in Resources */,
 				3B2F5A0C21F56E0900F78C52 /* Main.storyboard in Resources */,
-				3B931FB6223B7B1E006AAB12 /* PresentCalendarView.xib in Resources */,
-				3B931FB0223B7B1E006AAB12 /* MenuCollectionViewCell.xib in Resources */,
+				3B931FD8223B80A8006AAB12 /* CollectionCellView.xib in Resources */,
 				3B931FCA223B7B2A006AAB12 /* icon_arrow_down@2x.png in Resources */,
 				3B931FCD223B7B2A006AAB12 /* icon_arrow_right_gray@2x.png in Resources */,
-				3B931FB8223B7B1E006AAB12 /* LaiCalendarView.xib in Resources */,
-				3B931FB9223B7B1E006AAB12 /* CollectionViewCell.xib in Resources */,
 				3B931FCF223B7B2A006AAB12 /* icon_arrow_left_black@2x.png in Resources */,
+				3B931FDB223B80A8006AAB12 /* CollectionViewCell.xib in Resources */,
 				3B931FCB223B7B2A006AAB12 /* icon_arrow_down_black@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
