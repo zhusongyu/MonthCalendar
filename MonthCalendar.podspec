@@ -10,7 +10,7 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.platform = :ios, '9.0'
 s.requires_arc = true
-s.source_files = 'MonthCalendar/Calendar/*'
+s.source_files = 'MonthCalendar/Calendar/view/*'
 #s.public_header_files = 'PresentViewController.swift'
 
 s.ios.deployment_target = '9.0'
