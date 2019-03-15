@@ -56,7 +56,7 @@ protocol LaiCalendarViewDelegate: NSObjectProtocol {
     func rightButtonDidClicked(laiCalendarView: LaiCalendarView)
 }
 
-class LaiCalendarView: UIView {
+public class LaiCalendarView: UIView {
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
     @IBOutlet weak var moreButton: UIButton!
@@ -162,7 +162,7 @@ class LaiCalendarView: UIView {
         delegate?.rightButtonDidClicked(laiCalendarView: self)
     }
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         return CGSize.init(width: UIViewNoIntrinsicMetric, height: dynamicHeight())
     }
     
@@ -180,7 +180,7 @@ class LaiCalendarView: UIView {
         return 0
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         layoutIfNeeded()
     }
